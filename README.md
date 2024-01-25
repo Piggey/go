@@ -21,6 +21,19 @@ impl I for S {
   func (s S) F() {}
 }
 ```
+### python-style ternary operator
+```go
+a := 5 if 1 > 2 else 4
+
+// would be the same as
+
+var a int
+if 1 > 2 {
+  a = 5
+} else {
+  a = 4
+}
+```
 
 # The Go Programming Language
 
