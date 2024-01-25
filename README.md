@@ -1,3 +1,14 @@
+## TODO:
+### enums
+```go
+type SampleEnum enum {
+  First
+  Second
+}
+
+e := SampleEnum.First
+```
+
 # The Go Programming Language
 
 Go is an open source programming language that makes it easy to build simple,
