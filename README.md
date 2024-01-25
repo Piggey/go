@@ -9,6 +9,19 @@ type SampleEnum enum {
 e := SampleEnum.First
 ```
 
+### explicit interface implementation
+```go
+type I interface {
+  F()
+}
+
+type S struct {}
+
+impl I for S {
+  func (s S) F() {}
+}
+```
+
 # The Go Programming Language
 
 Go is an open source programming language that makes it easy to build simple,
